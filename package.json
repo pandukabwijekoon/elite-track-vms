@@ -1,5 +1,15 @@
 {
+  "name": "elitetrack-vms",
+  "version": "1.0.0",
+  "description": "EliteTrack Vehicle Management System",
+  "main": "server/server.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && node server.js",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\""
+  },
   "dependencies": {
-    "mongodb": "^7.1.1"
+    "concurrently": "^9.1.2"
   }
 }

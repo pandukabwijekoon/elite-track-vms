@@ -3,6 +3,13 @@
 
 EliteTrack is a high-density MERN stack application engineered for the discerning driver. It provides a surgical-grade environment to track, document, and master your personal vehicle garage.
 
+## 🎞️ Project Showcase
+![EliteTrack Hero Landing](assets/screenshots/hero_landing.png)
+*Cinematic Landing Page with Register Protocol*
+
+![Digital Garage Overview](assets/screenshots/garage_overview.png)
+*Real-time Fleet Management & AI Diagnostics*
+
 ## 🚀 Key Features
 - **My Digital Garage**: A high-fidelity headquarters for your entire fleet.
 - **Evolution Chronicles**: Document your build's transformation with side-by-side "Before & After" native image uploads.
