@@ -1,0 +1,32 @@
+# EliteTrack - Security Vault Exclusions
+
+# Environment Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependency Managers
+node_modules/
+package-lock.json (Optional, but often ignored in monorepos)
+
+# Build Artifacts
+dist/
+build/
+out/
+.next/
+
+# Binary Assets & Storage (Local Garage)
+server/uploads/
+*.log
+npm-debug.log*
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE Folders
+.vscode/
+.idea/
+.gemini/
+.antigravity/
