@@ -21,7 +21,7 @@ import './styles/globals.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/elite-track-vms/">
         <div style={{ position: 'relative', zIndex: 1 }}>
           <EliteBot />
           <Routes>
