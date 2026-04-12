@@ -41,5 +41,3 @@ This project is built with a **Security-First** mindset using Environment Variab
 - **Database**: MongoDB Atlas.
 - **Branding**: Elite Stealth UI (Dark Mode).
 
----
-*Engineered by Antigravity AI. Powered by Precision.*
